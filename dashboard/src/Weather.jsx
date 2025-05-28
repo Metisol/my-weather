@@ -56,7 +56,8 @@ const myRef = React.useRef();
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // test commit
+
     fetchData();
   };
 
